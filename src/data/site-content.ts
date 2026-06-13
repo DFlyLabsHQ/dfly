@@ -228,6 +228,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
 //   { label: "Twitter / X", href: "#", iconKey: "twitter" },
   { label: "LinkedIn",    href: "https://www.linkedin.com/in/dfly-labs-a165b6411", iconKey: "linkedin" },
   { label: "Instagram",   href: "https://www.instagram.com/dflylabs?igsh=Y2VkY2k0N3l1Zm41", iconKey: "instagram" },
-  { label: "Phone",   href: "tel:+919876543210",   iconKey: "phone", },
+//   { label: "Phone",   href: "tel:+7798651575",   iconKey: "phone", },
 //   { label: "GitHub",      href: "#", iconKey: "github" },
 ];
