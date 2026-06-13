@@ -68,7 +68,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:info@dflylabs.com"
+              href="mailto:dflylabs@gmail.com"
               className="flex items-center gap-[7px] px-4 py-2 rounded-full text-[13px] font-medium no-underline transition-all duration-200"
               style={{
                 border: "1px solid rgba(255,255,255,0.08)",
@@ -77,7 +77,7 @@ export default function Footer() {
               }}
             >
               <FiMail size={13} />
-              info@dflylabs.com
+              dflylabs@gmail.com
             </a>
           </div>
         </div>
