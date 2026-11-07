@@ -231,3 +231,45 @@ export const SOCIAL_LINKS: SocialLink[] = [
 //   { label: "Phone",   href: "tel:+7798651575",   iconKey: "phone", },
 //   { label: "GitHub",      href: "#", iconKey: "github" },
 ];
+/* ------------------------------------------------------------------ */
+/* Products                                                             */
+/* ------------------------------------------------------------------ */
+
+export const DFLY_TRIPS_URL = "https://trips.dfly.co.in";
+
+export const DFLY_TRIPS_FEATURES = [
+  "Trips with dates, seats and prices",
+  "Online booking for the whole group",
+  "Payments, refunds and cancellations",
+  "Travellers, team members and roles",
+  "Your colours, logo and 10 website layouts",
+  "Made for phones, from the first screen",
+];
+
+/** Screenshots of DFly Trips (a demo company, Trip Vista) in public/products/dfly-trips. */
+export const DFLY_TRIPS_SHOTS = [
+  {
+    label: "Traveller website",
+    address: "tripvista.dfly.co.in",
+    desktop: "/products/dfly-trips/website-desktop.webp",
+    phone: "/products/dfly-trips/trip-phone.webp",
+    alt: "A travel company's DFly Trips website",
+    caption: "The company's own website: trips, dates and booking - on a computer and on a phone.",
+  },
+  {
+    label: "Admin panel",
+    address: "tripvista.dfly.co.in/admin",
+    desktop: "/products/dfly-trips/admin-dashboard.webp",
+    phone: "/products/dfly-trips/explore-phone.webp",
+    alt: "The DFly Trips admin dashboard",
+    caption: "The admin panel: earnings, bookings and what's coming up, at a glance.",
+  },
+  {
+    label: "Bookings",
+    address: "tripvista.dfly.co.in/admin/bookings",
+    desktop: "/products/dfly-trips/admin-bookings.webp",
+    phone: "/products/dfly-trips/trip-phone.webp",
+    alt: "Bookings in the DFly Trips admin panel",
+    caption: "Every booking with its travellers, payment and status - searchable and filterable.",
+  },
+];
