@@ -235,7 +235,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
 /* Products                                                             */
 /* ------------------------------------------------------------------ */
 
-export const DFLY_TRIPS_URL = "https://trips.dfly.co.in";
+/** the DFly Trips product page (what it is, for whom, features) - not the console sign-in */
+export const DFLY_TRIPS_URL = "https://trips.dfly.co.in/about";
 
 export const DFLY_TRIPS_FEATURES = [
   "Trips with dates, seats and prices",
